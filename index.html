@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Home</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<meta name="keywords" content="" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- bootstrap-css -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<!--// bootstrap-css -->
+<!-- css -->
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+<!--// css -->
+<!-- font-awesome icons -->
+<link href="css/font-awesome.css" rel="stylesheet"> 
+<!-- //font-awesome icons -->
+<!-- font -->
+<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href="http://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700italic,700,400italic,300italic,300' rel='stylesheet' type='text/css'>
+<!-- //font -->
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script> 
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<![endif]-->
+</head>
+<body>
+	<!-- banner -->
+	<div class="banner">
+		<div class="header">
+			<div class="container">
+				<div class="header-left">
+					<div class="w3layouts-logo">
+						<h1>
+							<a href="index.html">猫先生 <span>解忧杂货铺</span></a>
+						</h1>
+					</div>
+				</div>
+				<div class="header-right">
+					<div class="top-nav">
+						<nav class="navbar navbar-default">
+								<div class="navbar-header">
+									<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+										<span class="sr-only">Toggle navigation</span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+									</button>
+								</div>
+							<!-- Collect the nav links, forms, and other content for toggling -->
+							<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+								<ul class="nav navbar-nav">
+									<li><a class="active" href="index.html">主页</a></li>
+									<li><a href="about.html">猫之家</a></li>
+									<!-- <li class=""><a href="#" class="dropdown-toggle hvr-bounce-to-bottom" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Codes<span class="caret"></span></a>
+										<ul class="dropdown-menu">
+											<li><a class="hvr-bounce-to-bottom" href="icons.html">Icons</a></li>
+											<li><a class="hvr-bounce-to-bottom" href="typography.html">Typography</a></li>          
+										</ul>
+									</li>								 -->
+									<li><a href="gallery.html">照片墙</a></li>
+									<li><a href="blog.html">猫咪日常</a></li>
+									<li><a href="contact.html">登入</a></li>
+								</ul>	
+								<div class="clearfix"> </div>
+							</div>	
+						</nav>		
+					</div>
+					<div class="agileinfo-social-grids">						
+						<ul class="login">
+							<!-- <li><a href="#">登入</a></li>
+							<li><a href="#">注册</a></li> -->
+							<!-- <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fa fa-rss"></i></a></li>
+							<li><a href="#"><i class="fa fa-vk"></i></a></li> -->
+						</ul>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+		<div class="w3layouts-banner-slider">
+			<div class="container">
+				<div class="slider">
+					<div class="callbacks_container">
+						<ul class="rslides callbacks callbacks1" id="slider4">
+							<li>
+								<div class="agileits-banner-info">
+									<h3>Rua一下,不愉快通通消失！ <span>一个用萌萌猫咪治愈不愉快的小地方</span></h3>
+									<div class="w3-button">
+										<a href="single.html">更多</a>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="agileits-banner-info">
+									<h3>喵呜~,您的猫咪上线了！<span>致力于为您提供更好的猫咪租赁服务</span></h3>
+									<div class="w3-button">
+										<a href="single.html">更多</a>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<script src="js/responsiveslides.min.js"></script>
+					<script>
+						// You can also use "$(window).load(function() {"
+						$(function () {
+						  // Slideshow 4
+						  $("#slider4").responsiveSlides({
+							auto: true,
+							pager:true,
+							nav:true,
+							speed: 500,
+							namespace: "callbacks",
+							before: function () {
+							  $('.events').append("<li>before event fired.</li>");
+							},
+							after: function () {
+							  $('.events').append("<li>after event fired.</li>");
+							}
+						  });
+					
+						});
+					 </script>
+					<!--banner Slider starts Here-->
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //banner -->
+	<!-- banner-bottom -->
+	<div class="welcome">
+		<div class="container">
+			<div class="w3ls-heading">
+				<h2 style="font-size: 45px; color: rgb(52,75,114);">欢迎加入我们，执子之爪，铲屎到老</h2>
+			</div>
+			<div class="welcome-grids">
+				<div class="col-md-6 agile-welcome-grid">
+					<div class="grid">
+						<div class="col-md-6 agileits-left">
+							<figure class="effect-chico">
+								<img src="images/2.jpg" alt="" />
+								<figcaption>
+									<h4></h4>
+									<p></p>
+								</figcaption>			
+							</figure>
+						</div>
+						<div class="col-md-6 agileits-left">
+							<figure class="effect-chico">
+								<img src="images/3.jpg" alt=" " />
+								<figcaption>
+									<h4></h4>
+									<p></p>
+								</figcaption>			
+							</figure>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				<div class="col-md-6 agileinfo-welcome-right">
+					<h4>开始，我以为我养了一只猫，后来，我发现我多了一个家人</h4>
+					<p>猫这种生物之所以让人迷恋，<br>是因为它有一种无论你是贫富贵贱，<br>它都看不起你的气质。或许可以这么说，<br>养狗是为了让你不再孤独，<br>而养猫则是为了让你的孤独更精致
+						岁月静好，只因有喊?
+						<br>不一定每天都很好，但每天都有一只小美好在等你。-同时，也希望它健康，希望它自由，希望它快乐。 </span></p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- banner-bottom -->
+	<!-- services -->
+	<div class="services">
+		<div class="container">
+			<div class="w3ls-heading">
+				<h3 style="font-weight: 300;"> 猫先生的店铺服务</h3>
+			</div>
+			<div class="wthree-services-grids">
+				<div class="col-md-6 w3ls-about-left">
+					<div class="agileits-icon-grid">
+						<div class="icon-left hvr-radial-out">
+							<i class="fa fa-cog" aria-hidden="true"></i>
+						</div>
+						<div class="icon-right">
+							<h5 >我们有完备成体系的猫咪租赁服务，让您放心橹猫,安心“rua”猫</h5>
+							<!-- <p></p> -->
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="agileits-icon-grid">
+						<div class="icon-left hvr-radial-out">
+							<i class="fa fa-heart" aria-hidden="true"></i>
+						</div>
+						<div class="icon-right">
+							<h5>我们能给您的猫咪衣食住行提供全天候更加温暖舒适的贴心服务</h5>
+							
+						</div>
+						<div class="clearfix"> </div>
+						</div>
+					<div class="agileits-icon-grid">
+						<div class="icon-left hvr-radial-out">
+							<i class="fa fa-paper-plane" aria-hidden="true"></i>
+						</div>
+						<div class="icon-right">
+							<h5>完善的医疗护理，24小时无忧服务</h5>
+							
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				<div class="col-md-6 w3ls-about-left">
+					<div class="agileits-icon-grid">
+						<div class="icon-left hvr-radial-out">
+							<i class="fa fa-user" aria-hidden="true"></i>
+						</div>
+						<div class="icon-right">
+							<h5>精美可爱的造型设计服务，让您和您的猫咪生活质量“up.up.up"</h5>
+							
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="agileits-icon-grid">
+						<div class="icon-left hvr-radial-out">
+							<i class="fa fa-thumbs-up" aria-hidden="true"></i>
+						</div>
+						<div class="icon-right">
+							<h5>如果您和猫咪“牵线“成功，那么我们可以将它售卖给您，您将其带回家</h5>
+							
+						</div>
+						<div class="clearfix"> </div>
+						</div>
+					<div class="agileits-icon-grid">
+						<div class="icon-left hvr-radial-out">
+							<i class="fa fa-bell" aria-hidden="true"></i>
+						</div>
+						<div class="icon-right">
+							<h5>有意者可以联系并加入我们</h5>
+						
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- //services -->
+	<!-- news -->
+	<div class="news">
+		<div class="container">
+			<div class="w3ls-heading">
+				<h3>猫咪大事记</h3>
+			</div>
+			<div class="w3-agileits-news-grids">
+				<div class="col-md-6 news-left">
+					<div class="w3-agile-news-date">
+						<div class="agile-news-icon">
+							<i class="fa fa-calendar" aria-hidden="true"></i>
+							<p>3月24日</p>
+						</div>
+						<div class="agileits-line"> </div>
+						<div class="agile-news-icon">
+							<a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i></a>
+							<p>3条评论</p>
+						</div>
+						<div class="agileits-line"> </div>
+						<div class="agile-news-icon">
+							<a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i></a>
+							<p>3482</p>
+						</div>
+					</div>
+					<div class="w3-agile-news-img">
+						<a href="single.html"><img src="images/4.jpg" alt="" /></a>
+						<h4><a href="single.html">小猫咪成长记1</a></h4>
+						<p>第二天晚上好像更加活泼了，每天记录着你的成长这种感觉很不一样。<br>有勇气的小朋友在我把猫粮放都米桶里的时候直接站起来吃冻干，哈哈哈，真是个贪吃的小朋友。很开心今晚一直跑到我的身边贴贴，你开始慢慢熟悉和喜欢我了对吧</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="col-md-6 news-right">
+					<div class="news-right-grid">
+						<a href="single.html">小猫咪成长记2</a>
+						<h5>3月27日</h5>
+						<p>天天在楼下喂这个小可爱)老远喊一声就跑过来啦<br>
+							可爱的小猫咪冲我飞奔而来的感觉!太治愈了</p>
+					</div>
+					<div class="news-right-grid">
+						<a href="single.html">小猫咪成长记3</a>
+						<h5>3月30日</h5>
+						<p>很多次拍他的照片被人误认为是我的臭臭我甚至开始怀疑<br>他是不是小时候跟臭臭一窝的小兄弟-因为主人卖不出去所以流浪了<br>一定要平安的度过春天夏天和秋天呀-</p>
+					</div>
+					<div class="news-right-grid">
+						<a href="single.html">小猫咪成长记4</a>
+						<h5>4月3日</h5>
+						<p>到一只发情的小猫咪，嗷嗷叫哈哈哈，记录一下，时也亲，但一发情就是完全怂的，终于是她栽在我里，不是我躲着她了哈哈哈哈，敲可爱，或许明天就做妈妈了，记录一下今晚的少女秧吧</p>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- //news -->
+	<!-- footer -->
+	<footer>
+		<!-- <div class="container">
+			<div class="agileits-w3layouts-footer-grids">
+				<div class="col-md-4 footer-left">
+					<h3>
+						<a href="index.html">Cat <span>Club</span></a>
+					</h3>
+					<div class="footer-social-grids">
+						<ul>
+							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fa fa-rss"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-4 footer-left">
+					<h4>Navigation</h4>
+					<div class="col-md-6 footer-grid-left">
+						<ul>
+							<li><a class="active" href="index.html">Home</a></li>
+							<li><a href="about.html">About</a></li>								
+							<li><a href="gallery.html">Gallery</a></li>
+							<li><a href="icons.html">Icons</a></li>
+						</ul>
+					</div>
+					<div class="col-md-6 footer-grid-left">
+						<ul>
+							<li><a href="typography.html">Typography</a></li>
+							<li><a href="blog.html">Blog</a></li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="col-md-4 footer-left">
+					<h4>Newsletter</h4>
+					<p>Subscribe With Us</p>
+					<form action="#" method="post">
+						<input type="email" placeholder="Subscribe" name="Subscribe" required="">
+						<button class="btn1">Go</button>
+					</form>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div> -->
+	</footer>
+	<!-- footer -->
+	<!-- copyright -->
+	
+	<!-- //copyright -->
+	<script src="js/responsiveslides.min.js"></script>
+	<script src="js/SmoothScroll.min.js"></script>
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+	<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+<!-- //here ends scrolling icon -->
+</body>	
+</html>
